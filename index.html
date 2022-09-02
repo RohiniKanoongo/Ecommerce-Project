@@ -3,6 +3,57 @@
 <head>
     <title>Ecommerce Basics</title>
     <script src="https://kit.fontawesome.com/d6922bd0ba.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+        }
+        img{
+            height: 50%;
+            width: 50%;
+            }
+            .section1-bag{
+            width:50%;
+            border: 5px solid whitesmoke;  
+
+         }
+         .section1-oven{
+            width: 50%;
+            border: 5px solid whitesmoke;
+         }
+            .section2-book{
+                width:33.33%;
+                border: 5px solid whitesmoke;
+            }
+            .section2-bluetooth-speaker{
+                width: 33.33%;
+                border: 5px solid whitesmoke;
+            }
+            .section2-iPad{
+                width:33.33%;
+                border: 5px solid whitesmoke;
+            }
+            
+            .section1{
+                display: flex;
+                margin: 15px;
+                align-items:center;
+                
+                
+            }
+            .section2{
+                display: flex;
+                align-items:center;
+                margin: 15px;
+            }
+            button{
+                background-color: gold;
+                cursor: pointer;
+            }
+            /* .TV{
+                margin-left: 140px;
+            } */
+    </style>
 </head>
 <body>
       <div class="header">
@@ -12,7 +63,7 @@
             <h1>eShop</h1>
         </div>
         <div class="header-search">
-             <input type="text">
+            <input type="text">
              <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div class="header-nav">
@@ -26,12 +77,82 @@
                  <h4>Shop</h4>
             </div>
             <div class="header-nav-basket">
-                <i class="fa-regular fa-basket-shopping"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
                 <h4>0</h4>
             </div>
-
         </div>
-      
-      </div>
+
+        <div class="section1">
+            <div class="section1-bag">
+                <p>Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women(Blue)</p>
+                <h3><small>$</small>11.34</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <br>
+                <img src="./Bag.jpg" alt="Bag"><br>
+                <button>Add to basket</button>
+            </div>
+            <div class="section1-oven">
+                <p>IFB 30L Convection Microwave Oven(30BRC2,Black,With Starter Kit</p>
+                <h3><small>$</small>239</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><br>
+                <img src="/microwave.jpg"  alt="Oven"><br>
+                <button>Add to basket</button>
+            </div>
+        </div>
+        <br><br>
+            <div class="section2">
+            <div class="section2-book">
+                <p>All the Light we Cannot See:The Breathtaking World Wide BestSeller Paperback </p>
+                <h3><small>$</small>199.99</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><br>
+                <img src="/book.jpg"  alt="Book">
+                <br>
+                <button>Add to basket</button>
+            </div>
+            <div class="section2-bluetooth-speaker">
+                <p>Amazon Echo(3rd Generation)|Smart Speaker with Alexa,Charcoal Fabric</p>
+                <h3><small>$</small>98.99</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><br>
+                <img src="/bluetooth-speaker.jpg"  alt="Speaker">
+                <br>
+                <button type="button">Add to basket</button>
+            </div>
+            <div class="section2-iPad">
+                <p>New Apple iPad Pro(12.9-inch,Wi-Fi,128GB) Silver(4th Generation)</p>
+                <h3><small>$</small>239</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><br>
+                <img src="/Apple-iPad.jpg"  alt="iPad">
+                <br>
+                <button >Add to basket</button>
+            </div>
+        </div><br><br>
+        <div class="section3-LED">
+            <p>SAMSUNG LC49RG90SSUXEN 49' Curved LED Gaming Monitor-Super Ultra Wide Dual WQHD 5120*1440.
+            </p>
+            <h3><small>$</small>1094.98</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><br>
+            <img src="/LED.jpg"  alt="Samsung LED" class="TV">
+            <br>
+                <button>Add to basket</button>
+        </div>
 </body>
 </html>
